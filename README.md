@@ -1,4 +1,4 @@
-# <h1> Ball Sort App Using React redux and Data Structre </h1>
+# <h1> Ball Sort App Using React redux and Data Structure </h1>
 
 > By: **Ahmed Zakaria**
 
@@ -14,9 +14,9 @@
 ### Features
 - Can add ball by type weight in input field , then click Insert or Enter
 - Can remove ball by click X icon at ball card 
-- Can sort asc with 6 different ways
-- Can desc sort by click bellow down arrow icon
-- Can shuffle ball cards by bellow shuffle icon
+- Can sort ascending with 6 different ways
+- Can sort descending  by click down arrow icon
+- Can shuffle ball cards by shuffle icon
           
 
   #### Find me :
