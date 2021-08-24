@@ -1,0 +1,116 @@
+body {
+  background-color: #f0f5fa;
+}
+body * {
+  font-family: monospace;
+}
+body h1 {
+  color: #414440;
+}
+body .ballInsert {
+  width: 100%;
+  padding: 0.5rem 0rem;
+  text-align: center;
+}
+body .ballInsert form > * {
+  border: none;
+}
+body .ballInsert form > *:focus {
+  border: none;
+  outline: none;
+}
+body .ballInsert form input {
+  color: #414440;
+  margin-right: 0.5rem;
+  border-radius: 0.4rem 0.25rem 0.25rem 0.4rem;
+  padding-left: 0.8rem;
+}
+body .ballInsert form button {
+  background-color: #93C210;
+  color: white;
+  border-radius: 0.25rem 0.4rem 0.4rem 0.25rem;
+}
+body .ballsContainer {
+  margin: 0;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+}
+body .ballsContainer .row:first-of-type .ballsContainer__ballCards .ballsContainer__ballCards__item {
+  width: 24%;
+  margin: 0.5%;
+  float: left;
+  background-color: white;
+  text-align: center;
+  padding: 2% 0%;
+  position: relative;
+}
+@media (max-width: 768px) {
+  body .ballsContainer .row:first-of-type .ballsContainer__ballCards .ballsContainer__ballCards__item {
+    width: 32% !important;
+  }
+}
+@media (max-width: 576px) {
+  body .ballsContainer .row:first-of-type .ballsContainer__ballCards .ballsContainer__ballCards__item {
+    width: 48% !important;
+  }
+}
+body .ballsContainer .row:first-of-type .ballsContainer__ballCards .ballsContainer__ballCards__item svg:first-of-type {
+  position: absolute;
+  top: 0.2rem;
+  right: 0.2rem;
+  color: #ff525c;
+  cursor: pointer;
+}
+body .ballsContainer .row:first-of-type .ballsContainer__ballCards .ballsContainer__ballCards__item svg:last-of-type {
+  font-size: xxx-large;
+  margin-bottom: 0.2rem;
+  color: #bbb6c8;
+}
+body .ballsContainer .row:first-of-type .ballsContainer__ballCards .ballsContainer__ballCards__item p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  color: #414440;
+}
+body .ballsContainer .row:first-of-type > div:nth-of-type(2) .ballsContainer__sortWrapper p {
+  margin: 0rem 2% 0.5rem;
+  background-color: #1890FF;
+  border-radius: 2rem;
+  padding: 0.2rem 8%;
+  color: white;
+  cursor: pointer;
+  font-size: larger;
+}
+@media (max-width: 768px) {
+  body .ballsContainer .row:first-of-type > div:nth-of-type(2) .ballsContainer__sortWrapper p {
+    font-size: medium !important;
+  }
+}
+@media (max-width: 576px) {
+  body .ballsContainer .row:first-of-type > div:nth-of-type(2) .ballsContainer__sortWrapper p {
+    font-size: small !important;
+  }
+}
+body .ballsContainer .row:first-of-type > div:nth-of-type(2) .ballsContainer__sortWrapper .ballsContainer__sortWrapper__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .ballsContainer .row:first-of-type > div:nth-of-type(2) .ballsContainer__sortWrapper .ballsContainer__sortWrapper__btns svg {
+  width: 1.5rem;
+  height: 2rem;
+  cursor: pointer;
+  color: #1890FF;
+}
+body .ballsContainer .row:last-of-type h3 {
+  width: 100%;
+  margin-block: 1.4rem;
+  text-align: center;
+  color: #5779be;
+}

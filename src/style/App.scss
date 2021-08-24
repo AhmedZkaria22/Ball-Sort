@@ -1,0 +1,101 @@
+body{
+    background-color: #f0f5fa;
+    *{ font-family: monospace; }
+    h1{
+        color: #414440;
+    }
+    .ballInsert{
+        width: 100%;
+        padding: 0.5rem 0rem;
+        text-align: center;
+        form{
+            &>*{
+                border: none;
+                &:focus{ border: none; outline: none; }
+            }
+            input{
+                color: #414440;
+                margin-right: 0.5rem;
+                border-radius: 0.4rem 0.25rem 0.25rem 0.4rem;
+                padding-left: 0.8rem;
+            }
+            button{  
+                background-color: #93C210;
+                color: white;
+                border-radius: 0.25rem 0.4rem 0.4rem 0.25rem;
+            }
+        }
+    }
+    .ballsContainer{
+        margin: 0;
+        width: 100%!important;
+        max-width: 100%!important;
+        min-width: 100%!important;
+        .row{
+            &:first-of-type{
+                .ballsContainer__ballCards{
+                    .ballsContainer__ballCards__item{
+                        width: 24%;
+                        margin: 0.5%;
+                        float: left;
+                        background-color: white;
+                        text-align: center;
+                        padding: 2% 0%;
+                        position: relative;
+                        // 4 3 2
+                        @media (max-width: 768px){ width: 32%!important; }
+                        @media (max-width: 576px){ width: 48%!important; }
+                        svg{                        
+                            &:first-of-type{
+                                position: absolute;
+                                top: 0.2rem;
+                                right: 0.2rem;
+                                color: #ff525c;
+                                cursor: pointer;
+                            }
+                            &:last-of-type{
+                                font-size: xxx-large;
+                                margin-bottom: 0.2rem;
+                                color: #bbb6c8;
+                            }
+                        }
+                        p{
+                            margin-bottom: 0;   
+                            font-size: 1.2rem;     
+                            color: #414440;                
+                        }
+                    }
+                }
+                &>div:nth-of-type(2){
+                    .ballsContainer__sortWrapper{
+                        p{
+                            margin: 0rem 2% 0.5rem;
+                            background-color: #1890FF;
+                            border-radius: 2rem;
+                            padding: 0.2rem 8%;
+                            color: white;
+                            cursor: pointer;
+                            font-size: larger;
+                            @media (max-width: 768px){ font-size: medium!important; }
+                            @media (max-width: 576px){ font-size: small!important; }
+                            // on click -> color : #5779be , back : white
+                        }
+                        .ballsContainer__sortWrapper__btns{
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-items: center;
+                            svg{ width: 1.5rem; height: 2rem;  cursor: pointer; color: #1890FF;}
+                        }
+                    }
+                }
+            }
+            &:last-of-type{
+                h3{ 
+                    width: 100%;
+                    margin-block: 1.4rem; text-align: center; 
+                    color: #5779be;
+                }
+            }
+        }
+    }
+}
