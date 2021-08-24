@@ -1,4 +1,4 @@
-# <h1> Ball Sort App Using React redux and Data Structure </h1>
+# <h1> Ball Sort App Using React redux and Sort Algorithms </h1>
 
 > By: **Ahmed Zakaria**
 
@@ -7,7 +7,7 @@
 * Redux
 * Jsx
 * Ecma
-* Data Structure
+* Data Structure & Algorithm
 * Scss
 * Github
 
